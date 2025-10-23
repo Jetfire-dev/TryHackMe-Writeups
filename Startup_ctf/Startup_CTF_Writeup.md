@@ -9,7 +9,7 @@ This is my first CTF writeup. It will cover on how I did the enumeration, exploi
 
 First let's scan with nmap and also checking out as many ports as possible at same time so nothing is missed out. 
 
-Syntax- nmap -sV -sC -p- <IP>
+Syntax- nmap -sV -sC -p- IP
 
 After scanning there are 3 ports that are open, these ports are 21,22 and 80.
 
@@ -22,7 +22,7 @@ However if you notice there's anonymous login allowed in ftp port which means we
 
 After logging as Anonymous in ftp port, there are apparently 2 files with one of them being text file. Perhaps we will find something useful from these two files. 
 
-Syntax- ftp <IP>
+Syntax- ftp IP
 
 ![FTP enumeration](assets/ftp.png)
 
@@ -139,6 +139,7 @@ And we are done, we have got the root access to the target and so is the flag fo
 ## Conclusion
 
 This CTF tests the basics very well and understanding how to leverage FTP Anonymous access as well as exploit cronjob for privilege escalation. Thank you for reading this and hope it helps others.
+
 
 
 

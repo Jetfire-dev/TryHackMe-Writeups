@@ -38,7 +38,7 @@ Unfortunately we are still at Dead end with nothing useful even after getting ft
 
 Let's use gobuster to find out if we can find any files in the webdirectory which we couldn't find through ftp. 
 
-Syntax- gobuster dir -u "<IP>" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+Syntax- gobuster dir -u "target_IP" -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
 ![Gobuster Enumeration 1](assets/gobuster1.png)
 ![Gobuster Enumeration 1](assets/gobuster2.png)
@@ -139,6 +139,7 @@ And we are done, we have got the root access to the target and so is the flag fo
 ## Conclusion
 
 This CTF tests the basics very well and understanding how to leverage FTP Anonymous access as well as exploit cronjob for privilege escalation. Thank you for reading this and hope it helps others.
+
 
 
 

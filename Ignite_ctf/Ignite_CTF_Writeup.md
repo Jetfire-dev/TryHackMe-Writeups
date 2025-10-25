@@ -22,7 +22,7 @@ Navigating to the website we get the welcome page for Fuel CMS along with admin 
 
 ![FuelCMS_Website](assets/fuel_cms.png)
 ![Admin_creds](assets/admin_login.png)
-
+![Admin_account](assets/Admin_account.png)
 After checking the account thoroughly, there really wasn't anything important or just anything useful, this leads to nowhere.
 
 However what we can do is since there is version number of CMS, this maybe a clue to find a possible exploit for it. We can use searchsploit to do just that.
@@ -90,5 +90,6 @@ and yes we did, which means now we can find the root.txt, answering the last tas
 ![root_flag](assets/root_flag.png)
 
 ## Conclusion
+
 
 This CTF was good test on web enumeration, searchsploit for relevant exploit to gain access to target and identifying how to escalate privileges even without direct ssh access. This was fun CTF and very straightforward even though the process can be exhausting when navigating but more experience through error helps in narrowing down to what can be found and less time consuming process for the next time.
